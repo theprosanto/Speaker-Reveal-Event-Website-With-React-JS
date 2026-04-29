@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+@theme {
+  --font-Onest: "Onest", sans-serif;
+  --color-purple: #734BDF;
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1170px;
+}
+
+
+@utility container {
+    @apply mx-auto;
+}
