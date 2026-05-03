@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <div className='bg-[url(/src/assets/Banner.png)] bg-cover bg-no-repeat'>
+    <div>
       <NavBar/>
       <Banner/>
     </div>
