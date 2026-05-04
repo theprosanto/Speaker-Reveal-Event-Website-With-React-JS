@@ -10,7 +10,7 @@ const KeyBenefits = () => {
 
             <Container className='py-25'>
                 <BlueDotSectionTitle>Key Benefits</BlueDotSectionTitle>
-                <TitleDetails className='pb-[35px]'>Key advantages that ensure
+                <TitleDetails className='pb-8.75'>Key advantages that ensure
                     your events stand out</TitleDetails>
                 <div className='flex gap-5 py-10.25 border-t-2 border-[#eaeaea]'>
                     <img src="src/assets/Background (6).png" alt="" />

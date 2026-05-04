@@ -5,7 +5,6 @@ import Marquee from "react-fast-marquee";
 const LatestNews = () => {
   return (
     <div className='bg-purple-600'>
-      <Marquee speed={50} pauseOnHover={true} gradient={false}>
         
         <ul className='flex gap-7.5 text-white h-20.25 items-center px-10'>
           
@@ -35,8 +34,6 @@ const LatestNews = () => {
           </li>
 
         </ul>
-
-      </Marquee>
     </div>
   )
 }
