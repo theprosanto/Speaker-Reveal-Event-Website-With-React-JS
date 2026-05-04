@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../Container'
 import Btn from '../Btn'
 import { FaPlay } from "react-icons/fa";
+import CountDown from '../CountDown';
 
 
 const Banner = () => {
@@ -31,24 +32,7 @@ const Banner = () => {
                     <h1 className='font-bold text-[20px} mt-[60px] mb-[40px]'>Upcoming Speaker Reveal - Don't Miss Out</h1>
 
 
-                    <ul className='flex gap-7.5'>
-                        <li className='place-content-center bg-white/10 backdrop-blur-[20px] w-31.25 h-30 rounded-[20px]'>
-                            <h1 className='font-bold text-[40px]'>202</h1>
-                            <p className='text-[16px]'>Days</p>
-                        </li>
-                        <li className='place-content-center bg-white/10 backdrop-blur-[20px] w-31.25 h-30 rounded-[20px]'>
-                            <h1 className='font-bold text-[40px]'>08</h1>
-                            <p className='text-[16px]'>Hours</p>
-                        </li>
-                        <li className='place-content-center bg-white/10 backdrop-blur-[20px] w-31.25 h-30 rounded-[20px]'>
-                            <h1 className='font-bold text-[40px]'>13</h1>
-                            <p className='text-[16px]'>Minutes</p>
-                        </li>
-                        <li className='place-content-center bg-white/10 backdrop-blur-[20px] w-31.25 h-30 rounded-[20px]'>
-                            <h1 className='font-bold text-[40px]'>14</h1>
-                            <p className='text-[16px]'>Seconds</p>
-                        </li>
-                    </ul>
+                   <CountDown></CountDown>
                 </div>
             </Container>
         </div>

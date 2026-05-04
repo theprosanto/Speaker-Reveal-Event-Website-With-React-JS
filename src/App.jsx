@@ -5,6 +5,8 @@ import Banner from './Components/ComponentSection/Banner'
 import LatestNews from './Components/ComponentSection/LatestNews'
 import AboutUs from './Components/ComponentSection/AboutUs'
 import CoreFeature from './Components/ComponentSection/CoreFeature'
+import KeyBenefits from './Components/ComponentSection/KeyBenefits'
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
       <LatestNews/>
       <AboutUs/>
       <CoreFeature/>
+      <KeyBenefits/>
     </div>
     </>
   )
