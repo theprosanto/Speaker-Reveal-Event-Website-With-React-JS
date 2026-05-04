@@ -1,6 +1,8 @@
 import React from 'react'
 import Container from '../Container'
 import Btn from '../Btn'
+import BlueDotSectionTitle from '../BlueDotSectionTitle'
+
 
 const AboutUs = () => {
     return (
@@ -22,10 +24,8 @@ const AboutUs = () => {
 
 
                 <div className='w-190.25 h-167.5'>
-                    <div className='flex items-center gap-1.5'>
-                        <img src="src/assets/AboutDot.png" alt="" />
-                        <h1 className='text-[14px] font-semibold'>About Us</h1>
-                    </div>
+                    <BlueDotSectionTitle>About Us</BlueDotSectionTitle>
+
                     <h1 className='text-[48px] font-semibold pt-3.5 pb-5.5 leading-13'>Uncover our mission & purpose behind this event</h1>
                     <p className='text-[18px] text-[#737681] leading-6.25'>Discover the vision that drives this event—a commitment to bringing together innovators,
                         leaders, and changemakers to share knowledge, spark inspiration, and create meaningful
