@@ -7,6 +7,7 @@ import AboutUs from './Components/ComponentSection/AboutUs'
 import CoreFeature from './Components/ComponentSection/CoreFeature'
 import KeyBenefits from './Components/ComponentSection/KeyBenefits'
 import OurEventSchedule from './Components/ComponentSection/OurEventSchedule'
+import FaqSection from './Components/ComponentSection/FaqSection'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <CoreFeature/>
       <KeyBenefits/>
       <OurEventSchedule/>
+      <FaqSection/>
     </div>
     </>
   )
