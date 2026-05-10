@@ -1,5 +1,5 @@
 import React from 'react'
-import whiteDot from '../assets/whitedot.png'
+import whiteDot from '../Components/ComponentSection/assets/whitedot.png'
 
 const WhiteDotSectionTitle = ({ children, className }) => {
   return (

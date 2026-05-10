@@ -4,6 +4,15 @@ import Btn from '../Btn'
 import BlueDotSectionTitle from '../BlueDotSectionTitle'
 
 
+import AboutUsAwards from '../ComponentSection/assets/AboutUsAwards.png'
+import Awards from '../ComponentSection/assets/Awards.png'
+import ExperienceCircle from '../ComponentSection/assets/experience-circle.png'
+import ExperienceCircle25 from '../ComponentSection/assets/experience-circle25.png'
+import Background7 from '../ComponentSection/assets/Background7.png'
+import Background1 from '../ComponentSection/assets/Background1.png'
+import Background2 from '../ComponentSection/assets/Background2.png'
+
+
 const AboutUs = () => {
     return (
         <div className='pt-25 pb-25'>
@@ -12,12 +21,12 @@ const AboutUs = () => {
 
                 <div>
                     <div className='relative'>
-                    <img src="src/assets/AboutUsAwards.png" alt="" />   
-                        <img src="src/assets/Awards.png" alt=""className='absolute top-17 left-55' />
+                    <img src={AboutUsAwards} alt="" />   
+                        <img src={Awards} alt=""className='absolute top-17 left-55' />
 
                     <div className='relative pt-10'>
-                            <img src="src/assets/experience-circle.png" alt="" />
-                            <img className='absolute top-23 left-13' src="src/assets/experience-circle25.png" alt="" />
+                            <img src={ExperienceCircle} alt="" />
+                            <img className='absolute top-23 left-13' src={ExperienceCircle25} alt="" />
                         </div>
                         </div>
                 </div>
@@ -42,12 +51,12 @@ const AboutUs = () => {
 
                     <div className='flex py-10.5'>
                         <div className='flex items-center gap-3.75'>
-                            <img src="src/assets/Background (7).png" alt="" />
+                            <img src={Background7} alt="" />
                             <h1 className='text-[20px] font-bold'>Receive real-time event
                                 updates.</h1>
                         </div>
                         <div className='flex items-center gap-3.75'>
-                            <img src="src/assets/Background (1).png" alt="" className='w-14.5 h-14.5' />
+                            <img src={Background1} alt="" className='w-14.5 h-14.5' />
                             <h1 className='text-[20px] font-bold'>Receive real-time event
                                 updates.</h1>
                         </div>
@@ -56,7 +65,7 @@ const AboutUs = () => {
                     <div className='flex gap-7.5 border-t-2 pt-10.5 border-[#dedede]'>
                         <Btn>Learn More About</Btn>
                         <div className='flex gap-3.75'>
-                            <img src="src/assets/Background (2).png" alt="" />
+                            <img src={Background2.png} alt="" />
                             <div>
                                 <h1 className='text-[20px] font-bold'>Call Now!</h1>
                                 <p className='text-[16px] text-[#737681] w-47.5' >+00 123 456 789</p>

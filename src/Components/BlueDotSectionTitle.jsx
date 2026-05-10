@@ -1,5 +1,5 @@
 import React from 'react'
-import blueDot from '../assets/AboutDot.png' 
+import blueDot from '../Components/ComponentSection/assets/AboutDot.png' 
 
 const BlueDotSectionTitle = ({children, className}) => {
   return (

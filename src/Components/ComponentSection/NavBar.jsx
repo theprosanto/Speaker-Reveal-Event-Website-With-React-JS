@@ -3,13 +3,15 @@ import Container from '../Container'
 import Flex from '../Flex'
 import Btn from '../Btn'
 
+import Logo from '../ComponentSection/assets/Logo.png'
+
 const NavBar = () => {
   return (
     <>
-      <nav className='bg-[url(/src/assets/header.png)] bg-fixed'>
+      <nav className='bg-[url(src/Components/ComponentSection/assets/Header.png)] bg-fixed'>
         <Container className='py-6.25'>
             <Flex>
-                <img src="src/assets/logo.png" alt="" />
+                <img src={Logo} alt="" />
                     <ul className='flex gap-12 text-white font-medium'>
                         <li>Home</li>
                         <li>About Us</li>

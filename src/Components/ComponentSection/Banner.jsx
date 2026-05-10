@@ -5,16 +5,21 @@ import { FaPlay } from "react-icons/fa";
 import CountDown from '../CountDown';
 
 
+import BorderImg1 from '../ComponentSection/assets/Border1.png'
+import BorderImg2 from '../ComponentSection/assets/Border2.png'
+import BorderImg3 from '../ComponentSection/assets/Border3.png'
+
+
 const Banner = () => {
     return (
-        <div className='bg-[url(src/assets/Banner.png)] pt-37.5 pb-20'>
+        <div className='bg-[url(src/Components/ComponentSection/assets/Banner.png)] bg-no-repeat bg-cover bg-center pt-37.5 pb-20'>
             <Container className="text-center place-items-center">
-                <img src="BannerImage" alt="" />
+                <img src="" alt="" />
                 <div className='flex gap-8 p-2.5 bg-white/10 backdrop-blur-[20px] rounded-[20px]'>
                     <div className='flex relative items-center'>
-                        <img src="src/assets/Border1.png" alt="" className='' />
-                        <img src="src/assets/Border2.png" alt="" className='absolute top-0 left-3' />
-                        <img src="src/assets/Border3.png" alt="" className=' absolute top-0 left-6' />
+                        <img src={BorderImg1} alt="" className='' />
+                        <img src={BorderImg2} alt="" className='absolute top-0 left-3' />
+                        <img src={BorderImg3} alt="" className=' absolute top-0 left-6' />
                     </div>
                     <p className='text-white'>Ideas that spark change.</p>
                 </div>

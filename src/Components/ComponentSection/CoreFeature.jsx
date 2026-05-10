@@ -7,79 +7,74 @@ import TitleDetails from '../TitleDetails';
 import WhiteDotSectionTitle from '../WhiteDotSectionTitle';
 
 
+import EventIcon from '../ComponentSection/assets/EventIcon.svg'
+import ConferenceInon from '../ComponentSection/assets/ConferenceInon.svg'
+import VenueIcon from '../ComponentSection/assets/VenueIcon.svg'
+import PostIcon from '../ComponentSection/assets/PostIcon.svg'
+
+
 const CoreFeature = () => {
     return (
 
-        <div className='bg-[url(src/assets/CoreBackground.png)] bg-cover text-white'>
+        <div className='bg-[url(src/Components/ComponentSection/assets/CoreBackground.png)] bg-cover text-white'>
 
             <Container className="pt-25">
-                
-
                 <div className='w-200 pb-20 mx-auto'>
-
-
-
-
                     <WhiteDotSectionTitle>Core Feature</WhiteDotSectionTitle>
-
-
-
-
-                
                     <TitleDetails className="text-center">Core features that power our
-                    exceptional services</TitleDetails>
+                        exceptional services</TitleDetails>
                 </div>
                 <div className='flex gap-7.5 place-content-center'>
                     <div className='place-content-center bg-white/10 backdrop-blur-[20px] w-86.25 rounded-[20px]'>
                         <div className='p-10'>
-                            <img src="src/assets/Background (3).png" alt="" />
-                        <h1 className='text-[20px] font-bold pt-24.75'>Event Planning Manage</h1>
-                        <p className='text-[16px] leading-6.25 pb-8'>Deliver seamless virtual experience
-                            with high-quality streaming and
-                            interactive tools.</p>
-                        <div className='flex items-center gap-2.5 pt-7.75 border-t-2 border-[#565656]'>
-                            <button>Read More</button>
-                            <FaArrowRight className='text-[#8CB420]' />
-                        </div>
-                        </div>
-                    </div>
-                    <div className='place-content-center bg-white/10 backdrop-blur-[20px] w-86.25 rounded-[20px]'>
-                        <div className='p-10'>
-                            <img src="src/assets/ConferenceInon.svg" alt="" />
-                        <h1 className='text-[20px] font-bold pt-24.75'>Conference Coordination</h1>
-                        <p className='text-[16px] leading-6.25 pb-8'>Deliver seamless virtual experience
-                            with high-quality streaming and
-                            interactive tools.</p>
-                        <div className='flex items-center gap-2.5 pt-7.75 border-t-2 border-[#565656]'>
-                            <button>Read More</button>
-                            <FaArrowRight className='text-[#8CB420]' />
-                        </div>
+                            <img src={EventIcon} alt="" />
+                            <h1 className='text-[20px] font-bold pt-24.75'>Event Planning Manage</h1>
+                            <p className='text-[16px] leading-6.25 pb-8'>Deliver seamless virtual experience
+                                with high-quality streaming and
+                                interactive tools.</p>
+                            <div className='flex items-center gap-2.5 pt-7.75 border-t-2 border-[#565656]'>
+                                <button>Read More</button>
+                                <FaArrowRight className='text-[#8CB420]' />
+                            </div>
                         </div>
                     </div>
                     <div className='place-content-center bg-white/10 backdrop-blur-[20px] w-86.25 rounded-[20px]'>
                         <div className='p-10'>
-                            <img src="src/assets/VenueIcon.svg" alt="" />
-                        <h1 className='text-[20px] font-bold pt-24.75'>Venue Booking & Setup</h1>
-                        <p className='text-[16px] leading-6.25 pb-8'>Deliver seamless virtual experience
-                            with high-quality streaming and
-                            interactive tools.</p>
-                        <div className='flex items-center gap-2.5 pt-7.75 border-t-2 border-[#565656]'>
-                            <button>Read More</button>
-                            <FaArrowRight className='text-[#8CB420]' />
-                        </div>
+                            <img src={ConferenceInon} alt="" />
+                            <h1 className='text-[20px] font-bold pt-24.75'>Conference Coordination</h1>
+                            <p className='text-[16px] leading-6.25 pb-8'>Deliver seamless virtual experience
+                                with high-quality streaming and
+                                interactive tools.</p>
+                            <div className='flex items-center gap-2.5 pt-7.75 border-t-2 border-[#565656]'>
+                                <button>Read More</button>
+                                <FaArrowRight className='text-[#8CB420]' />
+                            </div>
                         </div>
                     </div>
                     <div className='place-content-center bg-white/10 backdrop-blur-[20px] w-86.25 rounded-[20px]'>
                         <div className='p-10'>
-                            <img src="src/assets/PostIcon.svg" alt="" />
-                        <h1 className='text-[20px] font-bold pt-24.75'>Post-Event Analytics</h1>
-                        <p className='text-[16px] leading-6.25 pb-8'>Deliver seamless virtual experience
-                            with high-quality streaming and
-                            interactive tools.</p>
-                        <div className='flex items-center gap-2.5 pt-7.75 border-t-2 border-[#565656]'>
-                            <button>Read More</button>
-                            <FaArrowRight className='text-[#8CB420]' />
+                            <img src={VenueIcon} alt="" />
+                            <h1 className='text-[20px] font-bold pt-24.75'>Venue Booking & Setup</h1>
+                            <p className='text-[16px] leading-6.25 pb-8'>Deliver seamless virtual experience
+                                with high-quality streaming and
+                                interactive tools.</p>
+                            <div className='flex items-center gap-2.5 pt-7.75 border-t-2 border-[#565656]'>
+                                <button>Read More</button>
+                                <FaArrowRight className='text-[#8CB420]' />
+                            </div>
                         </div>
+                    </div>
+                    <div className='place-content-center bg-white/10 backdrop-blur-[20px] w-86.25 rounded-[20px]'>
+                        <div className='p-10'>
+                            <img src={PostIcon} alt="" />
+                            <h1 className='text-[20px] font-bold pt-24.75'>Post-Event Analytics</h1>
+                            <p className='text-[16px] leading-6.25 pb-8'>Deliver seamless virtual experience
+                                with high-quality streaming and
+                                interactive tools.</p>
+                            <div className='flex items-center gap-2.5 pt-7.75 border-t-2 border-[#565656]'>
+                                <button>Read More</button>
+                                <FaArrowRight className='text-[#8CB420]' />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -87,11 +82,11 @@ const CoreFeature = () => {
                 <div className='flex gap-3.75 items-center place-content-center pb-25'>
                     <h1 className='text-[20px] font-bold'>4.9/5</h1>
                     <ul className='flex gap-1 text-[20px]'>
-                        <li><FaStar className='text-purple'/></li>
-                        <li><FaStar className='text-purple'/></li>
-                        <li><FaStar className='text-purple'/></li>
-                        <li><FaStar className='text-purple'/></li>
-                        <li><FaStar className='text-purple'/></li>
+                        <li><FaStar className='text-purple' /></li>
+                        <li><FaStar className='text-purple' /></li>
+                        <li><FaStar className='text-purple' /></li>
+                        <li><FaStar className='text-purple' /></li>
+                        <li><FaStar className='text-purple' /></li>
                     </ul>
                     <h1 className='text-[20px] font-bold'>Our 4200 Review</h1>
                 </div>
