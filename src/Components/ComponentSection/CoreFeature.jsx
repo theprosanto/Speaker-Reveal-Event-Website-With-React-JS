@@ -18,10 +18,10 @@ const CoreFeature = () => {
 
         <div className='bg-[url(src/Components/ComponentSection/assets/CoreBackground.png)] bg-cover text-white'>
 
-            <Container className="pt-25">
-                <div className='w-200 pb-20 mx-auto'>
-                    <WhiteDotSectionTitle>Core Feature</WhiteDotSectionTitle>
-                    <TitleDetails className="text-center">Core features that power our
+            <Container className="py-25">
+                <div className='pb-20 mx-auto'>
+                    <WhiteDotSectionTitle className='pb-2.5'>Core Feature</WhiteDotSectionTitle>
+                    <TitleDetails className="text-center">Core features that power our <br />
                         exceptional services</TitleDetails>
                 </div>
                 <div className='flex gap-7.5 place-content-center'>

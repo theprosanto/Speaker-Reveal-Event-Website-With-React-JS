@@ -4,7 +4,7 @@ import whiteDot from '../Components/ComponentSection/assets/whitedot.png'
 const WhiteDotSectionTitle = ({ children, className }) => {
   return (
     <div className={className}>
-      <div className='flex items-center gap-1.5'>
+      <div className='flex items-center justify-center gap-1.5'>
         <img src={whiteDot} alt="white dot"/>
         <h1 className='text-[14px] font-semibold'>
           {children}
