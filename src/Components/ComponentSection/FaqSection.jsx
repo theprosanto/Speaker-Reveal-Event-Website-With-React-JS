@@ -1,5 +1,8 @@
 import React from 'react'
 import { FiPlusCircle } from "react-icons/fi";
+import { FiMinusCircle } from "react-icons/fi";
+
+
 
 
 import FaqsImage from '../ComponentSection/assets/FaqsImage.png'
@@ -13,30 +16,39 @@ const FaqSection = () => {
     <div>
 
       <Container className='flex gap-11.25 py-25'>
-        <div>
-          <img src={FaqsImage} alt="" />
-          <img src={FaqsImageCalling} alt="" />
+        <div className='relative'>
+          <img src={FaqsImage} alt="" className='w-245 h-208.25' />
+          <img src={FaqsImageCalling} alt="" className='absolute bottom-0 right-0 p-3.75 rounded-tl-lg bg-white' />
         </div>
         <div>
           <BlueDotSectionTitle>FAQ's</BlueDotSectionTitle>
           <TitleDetails className='pt-2.5 pb-8.75'>What our customers say about their <br />experience</TitleDetails>
-          <div className='flex items-center justify-between py-5.75 px-6.25 bg-[#F6F6F7] rounded-[20px] font-semibold text-[18px]'>
+
+          <div className='flex items-center justify-between py-5.75 px-6.25 bg-[#F6F6F7] rounded-[20px] mb-7.5 font-semibold text-[18px]'>
             <h1>1. How does the complete event register process actually work?</h1>
+            <FiPlusCircle className='text-3xl text-purple' />
+          </div>
+          <div className='flex items-center justify-between py-5.75 px-6.25 bg-[#F6F6F7] rounded-[20px] mb-7.5 font-semibold text-[18px]'>
+            <h1>2. Where is the main event venue located precisely?</h1>
+            <FiPlusCircle className='text-3xl text-purple' />
+          </div>
+          <div className='bg-[#F6F6F7] rounded-[20px] mb-7.5'>
+            <div className='flex items-center justify-between py-5.75 px-6.25 font-semibold text-[18px]'>
+              <h1>3. Can attendees freely switch between sessions and tracks?</h1>
+              <FiMinusCircle className='text-3xl text-purple' />
+            </div>
+            <p className='text-[#737681] py-5.75 px-6.25'>Our event is designed with flexible scheduling, allowing you to move between halls, select sessions that interest you most, and customize your learning experience throughout the day.</p>
+          </div>
+          <div className='flex items-center justify-between py-5.75 px-6.25 bg-[#F6F6F7] rounded-[20px] mb-7.5 font-semibold text-[18px]'>
+            <h1>4. Does the event provide virtual participation options online?</h1>
+            <FiPlusCircle className='text-3xl text-purple' />
+          </div>
+          <div className='flex items-center justify-between py-5.75 px-6.25 bg-[#F6F6F7] rounded-[20px] mb-7.5 font-semibold text-[18px]'>
+            <h1>5. What is the event refund and cancellation policy?</h1>
             <FiPlusCircle className='text-3xl text-purple' />
           </div>
         </div>
       </Container>
-
-
-      <div>
-        <h2 id="accordion-collapse-heading-1">
-          <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-body rounded-t-base border border-t-0 border-x-0 border-b-default hover:text-heading hover:bg-neutral-secondary-medium gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
-            <span>What is Flowbite?</span>
-            <svg data-accordion-icon className="w-5 h-5 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width={24} height={24} fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m5 15 7-7 7 7" /></svg>
-          </button>
-        </h2>
-      </div>
-
 
     </div>
   )

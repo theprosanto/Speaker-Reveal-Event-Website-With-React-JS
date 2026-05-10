@@ -16,7 +16,7 @@ import PostIcon from '../ComponentSection/assets/PostIcon.svg'
 const CoreFeature = () => {
     return (
 
-        <div className='bg-[url(src/Components/ComponentSection/assets/CoreBackground.png)] bg-cover text-white'>
+        <div className='bg-[url(src/Components/ComponentSection/assets/CoreBackground.png)] bg-cover bg-no-repeat text-white'>
 
             <Container className="py-25">
                 <div className='pb-20 mx-auto'>
